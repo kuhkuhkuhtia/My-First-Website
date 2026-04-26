@@ -64,7 +64,7 @@ li {
 
 .row {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ form {
 input, textarea {
     padding: 6px 12px;
     margin-bottom: 24px;
-    font-size: 28px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -168,7 +168,7 @@ footer {
     padding: 0 16px;
 }
 
-/* SMALL AND LARGEPHONES, TABLETS */
+/* SMALL AND LARGE PHONES, TABLETS */
 @media (max-width: 768px) {
     .row {
         flex-direction: column;
