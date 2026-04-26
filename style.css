@@ -144,7 +144,6 @@ input, textarea {
 }
 
 /* FOOTER */
-
 footer {
     background-color: #aaf5ff;
     display: flex;
@@ -166,9 +165,6 @@ footer {
     color: black;
     font-size: 24px;
     font-weight: 700;
-}
-
-.footer__link {
     padding: 0 16px;
 }
 
@@ -212,8 +208,6 @@ footer {
         width: 50%;  /* Each takes half the screen */
     }
 
-    }
-
     #discord .section__description {
         flex-direction: column-reverse;
     }
@@ -226,12 +220,9 @@ footer {
         max-width: 360px;
     }
 
-    .footer__link {
-        padding: 0 4px;
-        font-size: 18px;
-    }
-
     .footer__links {
         margin-bottom: 24px;
+        padding: 0 4px;
+        font-size: 18px;
     }
 }   
